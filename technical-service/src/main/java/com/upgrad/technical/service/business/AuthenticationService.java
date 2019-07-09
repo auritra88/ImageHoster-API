@@ -4,6 +4,7 @@ package com.upgrad.technical.service.business;
 import com.upgrad.technical.service.dao.UserDao;
 import com.upgrad.technical.service.entity.UserAuthTokenEntity;
 import com.upgrad.technical.service.entity.UserEntity;
+import com.upgrad.technical.service.exception.AuthenticationFailedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -21,7 +22,7 @@ public class AuthenticationService {
     private PasswordCryptographyProvider CryptographyProvider;
 
     @Transactional(propagation = Propagation.REQUIRED)
-    public UserAuthTokenEntity authenticate(final String username, final String password) {
+    public UserAuthTokenEntity authenticate(final String username, final String password) throws AuthenticationFailedException {
         //Idea here is to fetch the user from users table with entered email
         //Call the getUserByEmail() method in UserDao class for userDao object and pass username(email) as argument
         //getUserByEmail() method returns UserEntity type object
@@ -29,7 +30,15 @@ public class AuthenticationService {
         //Here we are considering that the entered credentials are correct, so this will always return a valid user record from database
         //Write the code here//
         UserEntity userEntity = userDao.getUserByEmail(username);
-
+        if(userEntity == null) {
+            //userEntity = null means that getUserByEmail() method did not return any object, which means that user with given email is not present in "users" table
+            //throw "AuthenticationFailedException", AuthenticationFailedException is user defined exception and has been implemented
+            //Note that the AuthenticationFailedException constructor requires two strings as an argument
+            //First string is an Exception code - You can create your own code desired for this exception(e.g. ATH-001)
+            //Second string is an Exception message - You can create any user friendly message which indicates that user with given email is not found(User with email not found)
+            //Write code here//
+            throw new AuthenticationFailedException("ATH-001","Username and/password not matching");
+        }
         //After that you have got userEntity from users table, we need to compare the password entered by the user with the password stored in the database
         //Since the password stored in the database is encrypted, so we also encrypt the password entered by the user using the Salt attribute in the database
         //Call the encrypt() method in PasswordCryptographyProvider class for CryptographyProvider object
@@ -74,12 +83,13 @@ public class AuthenticationService {
             userDao.updateUser(userEntity);
             userEntity.setLastLoginAt(now);
             return userAuthTokenEntity;
-        } else {
-            //throw exception
-
-            return null;
-            //Will be covered in next Assessment
-            //We are assuming that the password is correct, so control will not come here
+        } else{
+            //Control will come here if user has entered a wrong password but correct email
+            //Again throw "AuthenticationFailedException"
+            //First string is an Exception code - You can create your own code desired for this exception(e.g. ATH-002)
+            //Second string is an Exception message - You can create any user friendly message which indicates that password is wrong(e.g. Password Failed)
+            //Write code here//
+            throw new AuthenticationFailedException("ATH-002","Username and/password not matching");
         }
     }
 
