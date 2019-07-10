@@ -6,29 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ed3f177-2b00-4cd4-a89a-4631b572d221" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/src/main/resources/endpoints/authentication.json" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/src/main/resources/endpoints/authentication.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/AuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/endpoints/authentication.json" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/endpoints/authentication.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/AuthorizedUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/AuthorizedUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-api/target/technical-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/technical-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-db/target/technical-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/target/technical-db.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/business/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/business/AuthenticationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/classes/com/upgrad/technical/service/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technical-service/target/technical-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/technical-service/target/technical-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/technical-db/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,59 +37,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/exception/RestExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/exception/AuthenticationFailedException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="14" column="40" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="40" />
               <folding>
+                <element signature="e#1505#1506#0" expanded="true" />
                 <element signature="e#1559#1560#0" expanded="true" />
               </folding>
             </state>
@@ -118,12 +50,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/AuthenticationService.java">
+        <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/ImageUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="91" column="60" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
+            <state relative-caret-position="629">
+              <caret line="55" column="44" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-db/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2414">
+              <caret line="142" column="71" selection-start-line="142" selection-start-column="71" selection-end-line="142" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technical-db/src/main/resources/sql/db-imageupload.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/ImageUploadService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/ImageEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/ImageDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3890#3891#0" expanded="true" />
+                <element signature="e#3918#3919#0" expanded="true" />
+                <element signature="e#4280#4281#0" expanded="true" />
+                <element signature="e#4314#4315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,8 +198,6 @@
         <option value="$PROJECT_DIR$/technical-api/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/technical-db/src/main/resources/config/localhost.properties" />
         <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" />
-        <option value="$PROJECT_DIR$/technical-api/pom.xml" />
-        <option value="$PROJECT_DIR$/technical-db/pom.xml" />
         <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java" />
         <option value="$PROJECT_DIR$/technical-service/pom.xml" />
         <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java" />
@@ -186,6 +207,12 @@
         <option value="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/exception/RestExceptionHandler.java" />
         <option value="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/technical-api/pom.xml" />
+        <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/ImageEntity.java" />
+        <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/ImageDao.java" />
+        <option value="$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/ImageUploadService.java" />
+        <option value="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/ImageUploadController.java" />
+        <option value="$PROJECT_DIR$/technical-db/pom.xml" />
       </list>
     </option>
   </component>
@@ -226,7 +253,6 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -290,201 +316,11 @@
               <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="exception" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="endpoints" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-api" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="business" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="technical-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="upgrad" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="technical" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="exception" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,7 +332,7 @@
     <property name="SearchEverywhereHistoryKey" value="userentity&#9;FILE&#9;file://E:/Trello_imagehoster/stubfiles/stub_1/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java&#10;signupc&#9;PSI&#9;JAVA://com.upgrad.technical.api.controller.SignupController&#10;application.ya&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Desktop/Trello/1/Assessment1/technical/technical-api/src/main/resources/application.yaml&#10;.jso&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Desktop/Trello/1/Assessment1/technical/technical-api/src/main/resources/endpoints/signup.json&#10;user&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Desktop/Trello/technical/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java&#10;App&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-api/src/main/resources/application.yaml&#10;userda&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java&#10;signupb&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java&#10;signupcontroller&#9;FILE&#9;file://D:/technical_milestone1(complete)_after_18videos/technical/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java&#10;swagger&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java&#10;signupbus&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java&#10;application&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/resources/application.yaml&#10;SignupController&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java&#10;signup.json&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/resources/endpoints/signup.json&#10;ServiceC&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/ServiceConfiguration.java&#10;Tech&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/TechnicalApiApplication.java&#10;SwaggerConfiguration&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java&#10;SignupC&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java&#10;UserD&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java&#10;db-signup&#9;FILE&#9;file://D:/technical1/technical/technical-db/src/main/resources/sql/db-signup.sql&#10;SignupBus&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java&#10;local&#9;FILE&#9;file://D:/technical1/technical/technical-db/src/main/resources/config/localhost.properties&#10;signup.js&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/resources/endpoints/signup.json&#10;Swagger&#9;FILE&#9;file://D:/technical1/technical/technical-api/src/main/java/com/upgrad/technical/api/config/SwaggerConfiguration.java&#10;service&#9;PSI&#9;JAVA://com.upgrad.technical.service.ServiceConfiguration&#10;signup&#9;FILE&#9;file://D:/technical1/technical/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562715374012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562768023583" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -507,11 +343,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-db\src\main\resources\sql" />
+      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-service\src\main\java\com\upgrad\technical\service\entity" />
+      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-service\src\main\java\com\upgrad\technical\service\dao" />
+      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-service\src\main\java\com\upgrad\technical\service\business" />
       <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-api\src\main\resources\endpoints" />
-      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-api\src\main\java\com\upgrad\technical\api\exception" />
-      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-api\src\main\java\com\upgrad\technical\api\controller" />
-      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-service\src\main\java\com\upgrad\technical\service\exception" />
-      <recent name="C:\Users\Arijit\intellij\API\ImageHoster\technical-service\src\main\java\com\upgrad\technical\service\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -599,18 +435,19 @@
       <workItem from="1562481371732" duration="12331000" />
       <workItem from="1562572676274" duration="4082000" />
       <workItem from="1562624027304" duration="8366000" />
-      <workItem from="1562712646919" duration="2613000" />
+      <workItem from="1562712646919" duration="7051000" />
+      <workItem from="1562767581699" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127804000" />
+    <option name="totallyTimeSpent" value="132557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.290469" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29500756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -738,32 +575,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="123" column="101" selection-start-line="123" selection-start-column="101" selection-end-line="123" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technical-db/src/main/resources/sql/db-authenticate.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical-db/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1534">
-          <caret line="141" column="72" selection-start-line="141" selection-start-column="72" selection-end-line="141" selection-end-column="72" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technical-api/target/generated-sources/com/upgrad/technical/api/model/SignupUserResponse.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -827,83 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3575#3576#0" expanded="true" />
-            <element signature="e#3600#3601#0" expanded="true" />
-            <element signature="e#3634#3635#0" expanded="true" />
-            <element signature="e#3662#3663#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3720#3721#0" expanded="true" />
-            <element signature="e#3760#3761#0" expanded="true" />
-            <element signature="e#3792#3793#0" expanded="true" />
-            <element signature="e#3823#3824#0" expanded="true" />
-            <element signature="e#3850#3851#0" expanded="true" />
-            <element signature="e#3890#3891#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
-            <element signature="e#3954#3955#0" expanded="true" />
-            <element signature="e#3982#3983#0" expanded="true" />
-            <element signature="e#4024#4025#0" expanded="true" />
-            <element signature="e#4058#4059#0" expanded="true" />
-            <element signature="e#4093#4094#0" expanded="true" />
-            <element signature="e#4124#4125#0" expanded="true" />
-            <element signature="e#4172#4173#0" expanded="true" />
-            <element signature="e#4212#4213#0" expanded="true" />
-            <element signature="e#4248#4249#0" expanded="true" />
-            <element signature="e#4280#4281#0" expanded="true" />
-            <element signature="e#4330#4331#0" expanded="true" />
-            <element signature="e#4372#4373#0" expanded="true" />
-            <element signature="e#4407#4408#0" expanded="true" />
-            <element signature="e#4438#4439#0" expanded="true" />
-            <element signature="e#4486#4487#0" expanded="true" />
-            <element signature="e#4526#4527#0" expanded="true" />
-            <element signature="e#4564#4565#0" expanded="true" />
-            <element signature="e#4598#4599#0" expanded="true" />
-            <element signature="e#4652#4653#0" expanded="true" />
-            <element signature="e#4698#4699#0" expanded="true" />
-            <element signature="e#4743#4744#0" expanded="true" />
-            <element signature="e#4777#4778#0" expanded="true" />
-            <element signature="e#4838#4839#0" expanded="true" />
-            <element signature="e#4884#4885#0" expanded="true" />
-            <element signature="e#4915#4916#0" expanded="true" />
-            <element signature="e#4942#4943#0" expanded="true" />
-            <element signature="e#4982#4983#0" expanded="true" />
-            <element signature="e#5014#5015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/AuthenticationController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,13 +687,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/technical-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="134" column="92" selection-start-line="134" selection-start-column="92" selection-end-line="134" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/SignupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="32" column="25" selection-start-line="32" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="14" column="40" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="40" />
           <folding>
+            <element signature="e#1505#1506#0" expanded="true" />
             <element signature="e#1559#1560#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/controller/ImageUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" column="71" selection-start-line="142" selection-start-column="71" selection-end-line="142" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/ImageUploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/business/SignupBusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/ImageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/dao/ImageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#3918#3919#0" expanded="true" />
+            <element signature="e#4280#4281#0" expanded="true" />
+            <element signature="e#4314#4315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-service/src/main/java/com/upgrad/technical/service/entity/UserAuthTokenEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-db/src/main/resources/sql/db-imageupload.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
