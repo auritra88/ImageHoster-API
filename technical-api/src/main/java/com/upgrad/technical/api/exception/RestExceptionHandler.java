@@ -1,9 +1,7 @@
 package com.upgrad.technical.api.exception;
 
 import com.upgrad.technical.api.model.ErrorResponse;
-import com.upgrad.technical.service.exception.AuthenticationFailedException;
-import com.upgrad.technical.service.exception.ImageNotFoundException;
-import com.upgrad.technical.service.exception.UploadFailedException;
+import com.upgrad.technical.service.exception.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -14,9 +12,6 @@ import org.springframework.web.context.request.WebRequest;
 public class RestExceptionHandler {
 
 
-    //Note that the AuthenticationFailedException is mapped to this method to handle the exception
-    //Write the annotation which can intercept AuthenticationFailedException in this method
-    //Write the annotation here//
     @ExceptionHandler(AuthenticationFailedException.class)
     public ResponseEntity<ErrorResponse> authenticationFailedException(AuthenticationFailedException exc, WebRequest request) {
         return new ResponseEntity<ErrorResponse>(
@@ -32,9 +27,28 @@ public class RestExceptionHandler {
     }
 
     @ExceptionHandler(ImageNotFoundException.class)
-    public ResponseEntity<ErrorResponse> imageNotFoundException(ImageNotFoundException exc, WebRequest request) {
+    public ResponseEntity<ErrorResponse> imagenotfoundException(ImageNotFoundException exc, WebRequest request) {
         return new ResponseEntity<ErrorResponse>(
                 new ErrorResponse().code(exc.getCode()).message(exc.getErrorMessage()), HttpStatus.NOT_FOUND
         );
     }
+
+    @ExceptionHandler(UserNotSignedInException.class)
+    public ResponseEntity<ErrorResponse> usernotsignedinException(UserNotSignedInException exc, WebRequest request) {
+        return new ResponseEntity<ErrorResponse>(
+                new ErrorResponse().code(exc.getCode()).message(exc.getErrorMessage()), HttpStatus.UNAUTHORIZED
+        );
+    }
+
+    //Write a method to map UnauthorizedException to this method to handle the exception
+    //The handler should print the Error code and Error message in the Response body with Http status FORBIDDEN
+    //Write code here//
+    @ExceptionHandler(UnauthorizedException.class)
+    public ResponseEntity<ErrorResponse> unauthorizedException(UnauthorizedException exc, WebRequest request) {
+        return new ResponseEntity<ErrorResponse>(
+                new ErrorResponse().code(exc.getCode()).message(exc.getErrorMessage()), HttpStatus.UNAUTHORIZED
+        );
+    }
+
+
 }

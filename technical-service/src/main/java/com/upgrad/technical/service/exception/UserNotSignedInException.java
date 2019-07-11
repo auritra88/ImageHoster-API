@@ -3,11 +3,12 @@ package com.upgrad.technical.service.exception;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
-public class UploadFailedException extends Exception {
+public class UserNotSignedInException extends Exception {
+
     private final String code;
     private final String errorMessage;
 
-    public UploadFailedException(final String code, final String errorMessage) {
+    public UserNotSignedInException(final String code, final String errorMessage) {
         this.code = code;
         this.errorMessage = errorMessage;
     }
