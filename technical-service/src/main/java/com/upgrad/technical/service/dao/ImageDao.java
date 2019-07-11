@@ -24,4 +24,25 @@ public class ImageDao {
         return imageEntity;
     }
 
+    public UserAuthTokenEntity getUserAuthToken(final String accessToken) {
+        //Complete this method to get the record from user_auth_tokens table with corresponding accesstoken received as an argument
+        //This method returns UserAuthTokenEntity type object if the record is found and returns null if NoResultException is caught
+        //Examine the query that has been written in UserAuthTokenEntity
+        //Write code here//
+        try {
+            return entityManager.createNamedQuery("userAuthTokenByAccessToken" , UserAuthTokenEntity.class).setParameter("accessToken" , accessToken).getSingleResult();
+        } catch(NoResultException e) {
+            return null;
+        }
+
+    }
+
+    public ImageEntity getImage(final String imageUuid) {
+        try {
+            return entityManager.createNamedQuery("ImageEntityByUuid", ImageEntity.class).setParameter("uuid", imageUuid).getSingleResult();
+        } catch (NoResultException nre) {
+            return null;
+        }
+    }
+
 }
